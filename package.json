@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment",
+  "version": "1.0.0",
+  "description": "The Power Of HyperText",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete, Good job!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaaron-Gunpot/Simple-HTTP-Assignment.git"
+  },
+  "author": "Jaaron Gunpot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaaron-Gunpot/Simple-HTTP-Assignment/issues"
+  },
+  "homepage": "https://github.com/Jaaron-Gunpot/Simple-HTTP-Assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
