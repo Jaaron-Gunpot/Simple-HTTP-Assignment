@@ -2,7 +2,8 @@ const hello = 'Hello World!';
 
 const getTimeString = () => {
   const d = new Date();
-  return `${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
+  const dateString = `${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
+  return dateString;
 };
 
 const getTime = (request, response) => {
