@@ -2,7 +2,7 @@ const text = require('./textResponses.js');
 
 const getHelloJSON = (request, response) => {
   const helloJSON = {
-    message: text.hello,
+    message: text.getHello(),
   };
 
   const stringMessage = JSON.stringify(helloJSON);
@@ -14,7 +14,7 @@ const getHelloJSON = (request, response) => {
 
 const getTimeJSON = (request, response) => {
   const timeJSON = {
-    time: text.getTimeString(),
+    time: text.getTime(),
   };
 
   const stringMessage = JSON.stringify(timeJSON);
