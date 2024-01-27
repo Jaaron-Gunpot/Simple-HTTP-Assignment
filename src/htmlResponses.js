@@ -7,13 +7,13 @@ const getIndex = (request, response) => {
   response.writeHead(200, { 'Content-Type': 'text/html' });
   response.write(index);
   response.end();
-}
+};
 
 const getPage2 = (request, response) => {
   response.writeHead(200, { 'Content-Type': 'text/html' });
   response.write(page2);
   response.end();
-}
+};
 
 module.exports.getIndex = getIndex;
 module.exports.getPage2 = getPage2;
